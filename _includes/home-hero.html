@@ -1,0 +1,75 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content wow fadeIn">
+
+          <div style="padding: 20px 0px 0px 0px;">
+            <h3 class="text-center">Project Title</h3>
+          </div>
+          <div style="padding: 10px 0px 0px 0px;">
+            <div style="text-align:center;font-size:14pt;">
+              <div style="padding: 5px 0px 5px 0px">
+                <a href="http://link-to-author-1-website/">Author 1<sup>&#8224</sup></a>,
+                <a href="http://link-to-author-2-website/">Author 2<sup>&#8224</sup></a>
+              </div>
+              <div style="padding: 5px 0px 5px 0px">
+                <span><sup>&#8224</sup> Your affiliation</span>
+              </div>
+              <div style="padding: 5px 0px 5px 0px">
+                <div class="venue text-center"><b>CONFERENCE YEAR</b></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+
+            {% if site.twitter_username != '' %}
+              <a href="https://link-to-arxiv/"><button class="btn btn-default btn-lg"><i class="fa fa-paperclip fa-lg"></i>Paper</button></a>
+            {% endif %}
+            {% if site.github_username != '' %}
+              <a href="https://link-to-youtube/"><button class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-lg"></i>YouTube</button></a>
+            {% endif %}
+
+          </div>
+
+          <div class="section">
+            <h4>Abstract</h4>
+            <hr>
+            Abstract.
+          </div>
+          <br>
+          <div class="section">
+            <h4>Results</h4>
+            <hr />
+            Results.
+          </div>
+          <br>
+          <div class="section">
+            <h4>Citation</h4>
+            <hr />
+            <div style="text-align:left;font-size:8px;">
+              <pre><code>
+@inproceedings{AuthorsYear,
+  title={Paper title},
+  author={Authors},
+  booktitle={Conference},
+  year={Year}
+}
+                </code></pre>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
