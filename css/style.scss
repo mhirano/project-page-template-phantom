@@ -326,6 +326,14 @@ video {
   margin: auto;
 }
 
+.section{
+  p {
+    @extend %merriweather;
+    line-height: 1.8; /* original: 1.8 */
+    font-size: 1.1em; /* original: 1.3em */  
+  }
+}
+
 /*--------------------------------------------------------------
 	4.0 Footer
 --------------------------------------------------------------*/
