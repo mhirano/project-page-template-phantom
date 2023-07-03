@@ -6,3 +6,5 @@ _site/
 vendor/
 **/.DS_Store
 res/material/*
+Gemfile.lock
+.devcontainer/
